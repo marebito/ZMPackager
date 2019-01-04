@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540AA91B21D47B0100E01279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AA91A21D47B0100E01279 /* AppDelegate.m */; };
+		540AA91E21D47B0100E01279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AA91D21D47B0100E01279 /* ViewController.m */; };
+		540AA92021D47B0200E01279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540AA91F21D47B0200E01279 /* Assets.xcassets */; };
+		540AA92321D47B0200E01279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540AA92121D47B0200E01279 /* Main.storyboard */; };
+		540AA92621D47B0200E01279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AA92521D47B0200E01279 /* main.m */; };
+		5483E34321DF05A200976829 /* ZMCertificateReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34221DF05A200976829 /* ZMCertificateReader.m */; };
+		5483E34621DF05B500976829 /* ZMProvisionReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34521DF05B500976829 /* ZMProvisionReader.m */; };
+		5483E34921DF110B00976829 /* ZMProvisionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34821DF110B00976829 /* ZMProvisionInfo.m */; };
+		5483E34C21DF337000976829 /* ZMRenewal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34B21DF337000976829 /* ZMRenewal.m */; };
+		5483E34E21DF36F100976829 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5483E34D21DF36F100976829 /* README.md */; };
+		54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */; };
+		54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */; };
+		54E6647421DF4F7500F1C989 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647321DF4F7500F1C989 /* checkmark.png */; };
+		54E6647621DF502900F1C989 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647521DF502900F1C989 /* document.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540AA91621D47B0100E01279 /* ZMPackager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMPackager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AA91921D47B0100E01279 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		540AA91A21D47B0100E01279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		540AA91C21D47B0100E01279 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		540AA91D21D47B0100E01279 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		540AA91F21D47B0200E01279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540AA92221D47B0200E01279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		540AA92421D47B0200E01279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540AA92521D47B0200E01279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		540AA92721D47B0200E01279 /* ZMPackager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZMPackager.entitlements; sourceTree = "<group>"; };
+		5483E34121DF05A200976829 /* ZMCertificateReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCertificateReader.h; sourceTree = "<group>"; };
+		5483E34221DF05A200976829 /* ZMCertificateReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCertificateReader.m; sourceTree = "<group>"; };
+		5483E34421DF05B500976829 /* ZMProvisionReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMProvisionReader.h; sourceTree = "<group>"; };
+		5483E34521DF05B500976829 /* ZMProvisionReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMProvisionReader.m; sourceTree = "<group>"; };
+		5483E34721DF110B00976829 /* ZMProvisionInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMProvisionInfo.h; sourceTree = "<group>"; };
+		5483E34821DF110B00976829 /* ZMProvisionInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMProvisionInfo.m; sourceTree = "<group>"; };
+		5483E34A21DF337000976829 /* ZMRenewal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRenewal.h; sourceTree = "<group>"; };
+		5483E34B21DF337000976829 /* ZMRenewal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRenewal.m; sourceTree = "<group>"; };
+		5483E34D21DF36F100976829 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54E6646A21DF495400F1C989 /* ZMShellCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMShellCmd.h; sourceTree = "<group>"; };
+		54E6646B21DF4B5600F1C989 /* ZMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
+		54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
+		54E6646E21DF4B7F00F1C989 /* ZMSSLToolsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMSSLToolsViewController.h; sourceTree = "<group>"; };
+		54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMSSLToolsViewController.m; sourceTree = "<group>"; };
+		54E6647321DF4F7500F1C989 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		54E6647521DF502900F1C989 /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540AA91321D47B0100E01279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540AA90D21D47B0100E01279 = {
+			isa = PBXGroup;
+			children = (
+				540AA91821D47B0100E01279 /* ZMPackager */,
+				540AA91721D47B0100E01279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540AA91721D47B0100E01279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540AA91621D47B0100E01279 /* ZMPackager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540AA91821D47B0100E01279 /* ZMPackager */ = {
+			isa = PBXGroup;
+			children = (
+				54E6647221DF4F5B00F1C989 /* Images */,
+				540AA91921D47B0100E01279 /* AppDelegate.h */,
+				540AA91A21D47B0100E01279 /* AppDelegate.m */,
+				54E6646B21DF4B5600F1C989 /* ZMBaseViewController.h */,
+				54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */,
+				540AA91C21D47B0100E01279 /* ViewController.h */,
+				540AA91D21D47B0100E01279 /* ViewController.m */,
+				5483E34121DF05A200976829 /* ZMCertificateReader.h */,
+				5483E34221DF05A200976829 /* ZMCertificateReader.m */,
+				5483E34421DF05B500976829 /* ZMProvisionReader.h */,
+				5483E34521DF05B500976829 /* ZMProvisionReader.m */,
+				5483E34721DF110B00976829 /* ZMProvisionInfo.h */,
+				5483E34821DF110B00976829 /* ZMProvisionInfo.m */,
+				5483E34A21DF337000976829 /* ZMRenewal.h */,
+				5483E34B21DF337000976829 /* ZMRenewal.m */,
+				54E6646A21DF495400F1C989 /* ZMShellCmd.h */,
+				54E6646E21DF4B7F00F1C989 /* ZMSSLToolsViewController.h */,
+				54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */,
+				540AA91F21D47B0200E01279 /* Assets.xcassets */,
+				540AA92121D47B0200E01279 /* Main.storyboard */,
+				540AA92421D47B0200E01279 /* Info.plist */,
+				540AA92521D47B0200E01279 /* main.m */,
+				540AA92721D47B0200E01279 /* ZMPackager.entitlements */,
+				5483E34D21DF36F100976829 /* README.md */,
+			);
+			path = ZMPackager;
+			sourceTree = "<group>";
+		};
+		54E6647221DF4F5B00F1C989 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				54E6647521DF502900F1C989 /* document.png */,
+				54E6647321DF4F7500F1C989 /* checkmark.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540AA91521D47B0100E01279 /* ZMPackager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540AA92A21D47B0200E01279 /* Build configuration list for PBXNativeTarget "ZMPackager" */;
+			buildPhases = (
+				540AA91221D47B0100E01279 /* Sources */,
+				540AA91321D47B0100E01279 /* Frameworks */,
+				540AA91421D47B0100E01279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMPackager;
+			productName = ZMPackager;
+			productReference = 540AA91621D47B0100E01279 /* ZMPackager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540AA90E21D47B0100E01279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yuri Boyka";
+				TargetAttributes = {
+					540AA91521D47B0100E01279 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 540AA91121D47B0100E01279 /* Build configuration list for PBXProject "ZMPackager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540AA90D21D47B0100E01279;
+			productRefGroup = 540AA91721D47B0100E01279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540AA91521D47B0100E01279 /* ZMPackager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540AA91421D47B0100E01279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E6647621DF502900F1C989 /* document.png in Resources */,
+				54E6647421DF4F7500F1C989 /* checkmark.png in Resources */,
+				5483E34E21DF36F100976829 /* README.md in Resources */,
+				540AA92021D47B0200E01279 /* Assets.xcassets in Resources */,
+				540AA92321D47B0200E01279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540AA91221D47B0100E01279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5483E34921DF110B00976829 /* ZMProvisionInfo.m in Sources */,
+				5483E34321DF05A200976829 /* ZMCertificateReader.m in Sources */,
+				54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */,
+				540AA91E21D47B0100E01279 /* ViewController.m in Sources */,
+				540AA92621D47B0200E01279 /* main.m in Sources */,
+				54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */,
+				5483E34621DF05B500976829 /* ZMProvisionReader.m in Sources */,
+				5483E34C21DF337000976829 /* ZMRenewal.m in Sources */,
+				540AA91B21D47B0100E01279 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		540AA92121D47B0200E01279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540AA92221D47B0200E01279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540AA92821D47B0200E01279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		540AA92921D47B0200E01279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		540AA92B21D47B0200E01279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZMPackager/ZMPackager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQW337MH2W;
+				INFOPLIST_FILE = ZMPackager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		540AA92C21D47B0200E01279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZMPackager/ZMPackager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQW337MH2W;
+				INFOPLIST_FILE = ZMPackager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540AA91121D47B0100E01279 /* Build configuration list for PBXProject "ZMPackager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540AA92821D47B0200E01279 /* Debug */,
+				540AA92921D47B0200E01279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540AA92A21D47B0200E01279 /* Build configuration list for PBXNativeTarget "ZMPackager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540AA92B21D47B0200E01279 /* Debug */,
+				540AA92C21D47B0200E01279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540AA90E21D47B0100E01279 /* Project object */;
+}
