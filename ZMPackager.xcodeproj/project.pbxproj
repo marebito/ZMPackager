@@ -17,6 +17,15 @@
 		5483E34921DF110B00976829 /* ZMProvisionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34821DF110B00976829 /* ZMProvisionInfo.m */; };
 		5483E34C21DF337000976829 /* ZMRenewal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34B21DF337000976829 /* ZMRenewal.m */; };
 		5483E34E21DF36F100976829 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5483E34D21DF36F100976829 /* README.md */; };
+		54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCF42921E2FF790055AA3E /* libQuickRSA.a */; };
+		54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */; };
+		54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43521E301EA0055AA3E /* YYClassInfo.m */; };
+		54BCF43B21E3184D0055AA3E /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43A21E3184D0055AA3E /* Foundation+Log.m */; };
+		54BCF43E21E318C80055AA3E /* ZMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43D21E318C80055AA3E /* ZMObject.m */; };
+		54BCF44121E34A1E0055AA3E /* ZMShellCommander.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44021E34A1E0055AA3E /* ZMShellCommander.m */; };
+		54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44321E34F820055AA3E /* ZMCertificateInfo.m */; };
+		54BCF44721E35DE80055AA3E /* ZMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44621E35DE80055AA3E /* ZMOperation.m */; };
+		54BCF44A21E35DF90055AA3E /* ZMTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44921E35DF90055AA3E /* ZMTaskManager.m */; };
 		54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */; };
 		54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */; };
 		54E6647421DF4F7500F1C989 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647321DF4F7500F1C989 /* checkmark.png */; };
@@ -43,6 +52,27 @@
 		5483E34A21DF337000976829 /* ZMRenewal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRenewal.h; sourceTree = "<group>"; };
 		5483E34B21DF337000976829 /* ZMRenewal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRenewal.m; sourceTree = "<group>"; };
 		5483E34D21DF36F100976829 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54BCF42921E2FF790055AA3E /* libQuickRSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickRSA.a; sourceTree = "<group>"; };
+		54BCF42C21E2FF790055AA3E /* QRFormatConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRFormatConvert.h; sourceTree = "<group>"; };
+		54BCF42D21E2FF790055AA3E /* QRSecCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRSecCrypto.h; sourceTree = "<group>"; };
+		54BCF42E21E2FF790055AA3E /* NSData+OpenSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+OpenSSL.h"; sourceTree = "<group>"; };
+		54BCF42F21E2FF790055AA3E /* QuickRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickRSA.h; sourceTree = "<group>"; };
+		54BCF43221E301EA0055AA3E /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		54BCF43321E301EA0055AA3E /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		54BCF43521E301EA0055AA3E /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		54BCF43621E301EA0055AA3E /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		54BCF43A21E3184D0055AA3E /* Foundation+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		54BCF43C21E318C80055AA3E /* ZMObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMObject.h; sourceTree = "<group>"; };
+		54BCF43D21E318C80055AA3E /* ZMObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMObject.m; sourceTree = "<group>"; };
+		54BCF43F21E34A1E0055AA3E /* ZMShellCommander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMShellCommander.h; sourceTree = "<group>"; };
+		54BCF44021E34A1E0055AA3E /* ZMShellCommander.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMShellCommander.m; sourceTree = "<group>"; };
+		54BCF44221E34F820055AA3E /* ZMCertificateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCertificateInfo.h; sourceTree = "<group>"; };
+		54BCF44321E34F820055AA3E /* ZMCertificateInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCertificateInfo.m; sourceTree = "<group>"; };
+		54BCF44521E35DE80055AA3E /* ZMOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMOperation.h; sourceTree = "<group>"; };
+		54BCF44621E35DE80055AA3E /* ZMOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMOperation.m; sourceTree = "<group>"; };
+		54BCF44821E35DF90055AA3E /* ZMTaskManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTaskManager.h; sourceTree = "<group>"; };
+		54BCF44921E35DF90055AA3E /* ZMTaskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTaskManager.m; sourceTree = "<group>"; };
 		54E6646A21DF495400F1C989 /* ZMShellCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMShellCmd.h; sourceTree = "<group>"; };
 		54E6646B21DF4B5600F1C989 /* ZMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
 		54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
@@ -57,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +113,9 @@
 		540AA91821D47B0100E01279 /* ZMPackager */ = {
 			isa = PBXGroup;
 			children = (
+				54BCF44B21E35EB30055AA3E /* ZMShellTask */,
+				54BCF43121E301EA0055AA3E /* YYModel */,
+				54BCF42821E2FF500055AA3E /* QuickRSA */,
 				54E6647221DF4F5B00F1C989 /* Images */,
 				540AA91921D47B0100E01279 /* AppDelegate.h */,
 				540AA91A21D47B0100E01279 /* AppDelegate.m */,
@@ -93,6 +127,8 @@
 				5483E34221DF05A200976829 /* ZMCertificateReader.m */,
 				5483E34421DF05B500976829 /* ZMProvisionReader.h */,
 				5483E34521DF05B500976829 /* ZMProvisionReader.m */,
+				54BCF44221E34F820055AA3E /* ZMCertificateInfo.h */,
+				54BCF44321E34F820055AA3E /* ZMCertificateInfo.m */,
 				5483E34721DF110B00976829 /* ZMProvisionInfo.h */,
 				5483E34821DF110B00976829 /* ZMProvisionInfo.m */,
 				5483E34A21DF337000976829 /* ZMRenewal.h */,
@@ -100,6 +136,9 @@
 				54E6646A21DF495400F1C989 /* ZMShellCmd.h */,
 				54E6646E21DF4B7F00F1C989 /* ZMSSLToolsViewController.h */,
 				54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */,
+				54BCF43A21E3184D0055AA3E /* Foundation+Log.m */,
+				54BCF43C21E318C80055AA3E /* ZMObject.h */,
+				54BCF43D21E318C80055AA3E /* ZMObject.m */,
 				540AA91F21D47B0200E01279 /* Assets.xcassets */,
 				540AA92121D47B0200E01279 /* Main.storyboard */,
 				540AA92421D47B0200E01279 /* Info.plist */,
@@ -108,6 +147,59 @@
 				5483E34D21DF36F100976829 /* README.md */,
 			);
 			path = ZMPackager;
+			sourceTree = "<group>";
+		};
+		54BCF42821E2FF500055AA3E /* QuickRSA */ = {
+			isa = PBXGroup;
+			children = (
+				54BCF42A21E2FF790055AA3E /* include */,
+				54BCF42921E2FF790055AA3E /* libQuickRSA.a */,
+			);
+			path = QuickRSA;
+			sourceTree = "<group>";
+		};
+		54BCF42A21E2FF790055AA3E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				54BCF42B21E2FF790055AA3E /* QuickRSA */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		54BCF42B21E2FF790055AA3E /* QuickRSA */ = {
+			isa = PBXGroup;
+			children = (
+				54BCF42C21E2FF790055AA3E /* QRFormatConvert.h */,
+				54BCF42D21E2FF790055AA3E /* QRSecCrypto.h */,
+				54BCF42E21E2FF790055AA3E /* NSData+OpenSSL.h */,
+				54BCF42F21E2FF790055AA3E /* QuickRSA.h */,
+			);
+			path = QuickRSA;
+			sourceTree = "<group>";
+		};
+		54BCF43121E301EA0055AA3E /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				54BCF43221E301EA0055AA3E /* YYClassInfo.h */,
+				54BCF43321E301EA0055AA3E /* YYModel.h */,
+				54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */,
+				54BCF43521E301EA0055AA3E /* YYClassInfo.m */,
+				54BCF43621E301EA0055AA3E /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		54BCF44B21E35EB30055AA3E /* ZMShellTask */ = {
+			isa = PBXGroup;
+			children = (
+				54BCF43F21E34A1E0055AA3E /* ZMShellCommander.h */,
+				54BCF44021E34A1E0055AA3E /* ZMShellCommander.m */,
+				54BCF44821E35DF90055AA3E /* ZMTaskManager.h */,
+				54BCF44921E35DF90055AA3E /* ZMTaskManager.m */,
+				54BCF44521E35DE80055AA3E /* ZMOperation.h */,
+				54BCF44621E35DE80055AA3E /* ZMOperation.m */,
+			);
+			path = ZMShellTask;
 			sourceTree = "<group>";
 		};
 		54E6647221DF4F5B00F1C989 /* Images */ = {
@@ -150,6 +242,11 @@
 				TargetAttributes = {
 					540AA91521D47B0100E01279 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -192,14 +289,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5483E34921DF110B00976829 /* ZMProvisionInfo.m in Sources */,
+				54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */,
+				54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */,
+				54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */,
 				5483E34321DF05A200976829 /* ZMCertificateReader.m in Sources */,
 				54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */,
 				540AA91E21D47B0100E01279 /* ViewController.m in Sources */,
 				540AA92621D47B0200E01279 /* main.m in Sources */,
 				54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */,
+				54BCF44A21E35DF90055AA3E /* ZMTaskManager.m in Sources */,
 				5483E34621DF05B500976829 /* ZMProvisionReader.m in Sources */,
+				54BCF44721E35DE80055AA3E /* ZMOperation.m in Sources */,
+				54BCF43E21E318C80055AA3E /* ZMObject.m in Sources */,
 				5483E34C21DF337000976829 /* ZMRenewal.m in Sources */,
 				540AA91B21D47B0100E01279 /* AppDelegate.m in Sources */,
+				54BCF43B21E3184D0055AA3E /* Foundation+Log.m in Sources */,
+				54BCF44121E34A1E0055AA3E /* ZMShellCommander.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +437,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ZMPackager/ZMPackager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LQW337MH2W;
@@ -340,6 +444,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZMPackager/QuickRSA",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,7 +458,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ZMPackager/ZMPackager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LQW337MH2W;
@@ -358,6 +465,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZMPackager/QuickRSA",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
 				PRODUCT_NAME = "$(TARGET_NAME)";

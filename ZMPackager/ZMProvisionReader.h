@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZMObject.h"
 
 #define PROVISION_PROFILE_PATH @"~/Library/MobileDevice/Provisioning\ Profiles"
 
@@ -14,8 +15,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZMProvisionReader : NSObject
-
+@interface ZMProvisionReader : ZMObject
++ (void)listMobileProvisionProfiles:(void (^)(NSArray *provisions))callback;
 @end
 
 NS_ASSUME_NONNULL_END

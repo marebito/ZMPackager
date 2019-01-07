@@ -7,18 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "ZMProvisionReader.h"
 
 #define WWDRCA @"https://developer.apple.com/certificationauthority/AppleWWDRCA.cer"
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    // 跳转Finder [[NSWorkspace sharedWorkspace] activateFileViewerSelectingURLs:urls];
+    [ZMProvisionReader listMobileProvisionProfiles:^(NSArray * _Nonnull provisions) {
+        NSLog(@"provisions-->%@", provisions);
+    }];
 }
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-}
-
-
+- (void)setRepresentedObject:(id)representedObject { [super setRepresentedObject:representedObject]; }
 @end
