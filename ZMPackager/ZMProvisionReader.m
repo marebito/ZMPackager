@@ -27,10 +27,11 @@
         provisionFiles = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:mobileProvisionDir error:nil];
     }
     [provisionFiles enumerateObjectsUsingBlock:^(id _Nonnull obj, NSUInteger idx, BOOL *_Nonnull stop) {
+        if ([obj isEqual:@".DS_Store"]) return;
         NSString *provisionPath =
             [[NSString stringWithFormat:@"%@/%@", mobileProvisionDir, obj] stringByReplacingOccurrencesOfString:@" "
                                                                                                      withString:@"\\ "];
-        NSString *provisionCmd = [NSString stringWithFormat:@"/usr/bin/security cms -D -i %@", provisionPath];
+        NSString *provisionCmd = [NSString stringWithFormat:@"%@%@", PROVISION_READ_CMD, provisionPath];
         ZMTask *task = [[ZMTask alloc] init];
         task.shellCmd = provisionCmd;
         task.taskComplete = ^(BOOL result, id  _Nonnull data) {

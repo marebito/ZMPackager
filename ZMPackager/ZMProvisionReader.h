@@ -11,7 +11,7 @@
 
 #define PROVISION_PROFILE_PATH @"~/Library/MobileDevice/Provisioning\ Profiles"
 
-#define PROVISION_READ_CMD @"security cms -D -i ";
+#define PROVISION_READ_CMD @"/usr/bin/security cms -D -i "
 
 NS_ASSUME_NONNULL_BEGIN
 

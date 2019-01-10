@@ -983,6 +983,19 @@
             </objects>
             <point key="canvasLocation" x="74" y="1126.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="IL7-gS-wbP">
+            <objects>
+                <viewController id="DQc-5a-ttg" sceneMemberID="viewController">
+                    <view key="view" id="CuJ-Du-ZX2">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="AqJ-E3-frZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="1602"/>
+        </scene>
     </scenes>
     <resources>
         <image name="checkmark" width="72" height="72"/>

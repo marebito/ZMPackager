@@ -17,6 +17,9 @@
 		5483E34921DF110B00976829 /* ZMProvisionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34821DF110B00976829 /* ZMProvisionInfo.m */; };
 		5483E34C21DF337000976829 /* ZMRenewal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E34B21DF337000976829 /* ZMRenewal.m */; };
 		5483E34E21DF36F100976829 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5483E34D21DF36F100976829 /* README.md */; };
+		5485511021E7302300BE05A3 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5485510E21E7302200BE05A3 /* CHCSVParser.m */; };
+		5485511921E73D8300BE05A3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5485511821E73D8300BE05A3 /* icon.png */; };
+		5485511B21E7436500BE05A3 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5485511A21E7436500BE05A3 /* default.png */; };
 		54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCF42921E2FF790055AA3E /* libQuickRSA.a */; };
 		54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */; };
 		54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43521E301EA0055AA3E /* YYClassInfo.m */; };
@@ -26,6 +29,7 @@
 		54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44321E34F820055AA3E /* ZMCertificateInfo.m */; };
 		54BCF44721E35DE80055AA3E /* ZMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44621E35DE80055AA3E /* ZMOperation.m */; };
 		54BCF44A21E35DF90055AA3E /* ZMTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF44921E35DF90055AA3E /* ZMTaskManager.m */; };
+		54BCF44D21E368900055AA3E /* list_xcode_provisioning_profiles.sh in Resources */ = {isa = PBXBuildFile; fileRef = 54BCF44C21E368900055AA3E /* list_xcode_provisioning_profiles.sh */; };
 		54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */; };
 		54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */; };
 		54E6647421DF4F7500F1C989 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647321DF4F7500F1C989 /* checkmark.png */; };
@@ -52,6 +56,10 @@
 		5483E34A21DF337000976829 /* ZMRenewal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRenewal.h; sourceTree = "<group>"; };
 		5483E34B21DF337000976829 /* ZMRenewal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRenewal.m; sourceTree = "<group>"; };
 		5483E34D21DF36F100976829 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5485510D21E7302200BE05A3 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		5485510E21E7302200BE05A3 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		5485511821E73D8300BE05A3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5485511A21E7436500BE05A3 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		54BCF42921E2FF790055AA3E /* libQuickRSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickRSA.a; sourceTree = "<group>"; };
 		54BCF42C21E2FF790055AA3E /* QRFormatConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRFormatConvert.h; sourceTree = "<group>"; };
 		54BCF42D21E2FF790055AA3E /* QRSecCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRSecCrypto.h; sourceTree = "<group>"; };
@@ -73,6 +81,7 @@
 		54BCF44621E35DE80055AA3E /* ZMOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMOperation.m; sourceTree = "<group>"; };
 		54BCF44821E35DF90055AA3E /* ZMTaskManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTaskManager.h; sourceTree = "<group>"; };
 		54BCF44921E35DF90055AA3E /* ZMTaskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTaskManager.m; sourceTree = "<group>"; };
+		54BCF44C21E368900055AA3E /* list_xcode_provisioning_profiles.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = list_xcode_provisioning_profiles.sh; sourceTree = "<group>"; };
 		54E6646A21DF495400F1C989 /* ZMShellCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMShellCmd.h; sourceTree = "<group>"; };
 		54E6646B21DF4B5600F1C989 /* ZMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
 		54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
@@ -113,6 +122,8 @@
 		540AA91821D47B0100E01279 /* ZMPackager */ = {
 			isa = PBXGroup;
 			children = (
+				5485511121E7310C00BE05A3 /* Shell */,
+				5485510B21E7302200BE05A3 /* CHCSVParser */,
 				54BCF44B21E35EB30055AA3E /* ZMShellTask */,
 				54BCF43121E301EA0055AA3E /* YYModel */,
 				54BCF42821E2FF500055AA3E /* QuickRSA */,
@@ -145,8 +156,25 @@
 				540AA92521D47B0200E01279 /* main.m */,
 				540AA92721D47B0200E01279 /* ZMPackager.entitlements */,
 				5483E34D21DF36F100976829 /* README.md */,
+				54BCF44C21E368900055AA3E /* list_xcode_provisioning_profiles.sh */,
 			);
 			path = ZMPackager;
+			sourceTree = "<group>";
+		};
+		5485510B21E7302200BE05A3 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				5485510D21E7302200BE05A3 /* CHCSVParser.h */,
+				5485510E21E7302200BE05A3 /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+		5485511121E7310C00BE05A3 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shell;
 			sourceTree = "<group>";
 		};
 		54BCF42821E2FF500055AA3E /* QuickRSA */ = {
@@ -205,6 +233,8 @@
 		54E6647221DF4F5B00F1C989 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5485511A21E7436500BE05A3 /* default.png */,
+				5485511821E73D8300BE05A3 /* icon.png */,
 				54E6647521DF502900F1C989 /* document.png */,
 				54E6647321DF4F7500F1C989 /* checkmark.png */,
 			);
@@ -274,8 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E6647621DF502900F1C989 /* document.png in Resources */,
+				54BCF44D21E368900055AA3E /* list_xcode_provisioning_profiles.sh in Resources */,
+				5485511B21E7436500BE05A3 /* default.png in Resources */,
 				54E6647421DF4F7500F1C989 /* checkmark.png in Resources */,
 				5483E34E21DF36F100976829 /* README.md in Resources */,
+				5485511921E73D8300BE05A3 /* icon.png in Resources */,
 				540AA92021D47B0200E01279 /* Assets.xcassets in Resources */,
 				540AA92321D47B0200E01279 /* Main.storyboard in Resources */,
 			);
@@ -292,6 +325,7 @@
 				54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */,
 				54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */,
 				54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */,
+				5485511021E7302300BE05A3 /* CHCSVParser.m in Sources */,
 				5483E34321DF05A200976829 /* ZMCertificateReader.m in Sources */,
 				54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */,
 				540AA91E21D47B0100E01279 /* ViewController.m in Sources */,

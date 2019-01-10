@@ -17,9 +17,9 @@
 {
     [super viewDidLoad];
     // 跳转Finder [[NSWorkspace sharedWorkspace] activateFileViewerSelectingURLs:urls];
-    [ZMProvisionReader listMobileProvisionProfiles:^(NSArray * _Nonnull provisions) {
-        NSLog(@"provisions-->%@", provisions);
-    }];
+//    [ZMProvisionReader listMobileProvisionProfiles:^(NSArray * _Nonnull provisions) {
+//        NSLog(@"provisions-->%@", provisions);
+//    }];
 }
 
 - (void)setRepresentedObject:(id)representedObject { [super setRepresentedObject:representedObject]; }
