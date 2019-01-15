@@ -9,7 +9,7 @@
 #import "ZMProvisionReader.h"
 #import "ZMShellCommander.h"
 #import "ZMProvisionInfo.h"
-#import "ZMShellTask/ZMTaskManager.h"
+#import "ZMTaskManager.h"
 
 @implementation ZMProvisionReader
 

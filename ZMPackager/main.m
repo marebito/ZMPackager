@@ -57,4 +57,5 @@ int main(int argc, const char* argv[]) { return NSApplicationMain(argc, argv); }
 /* 模拟器跳转: https://github.com/tue-savvy/SimulatorManager.git        */
 /* 平面Switch视图: https://github.com/iluuu1994/ITSwitch.git            */
 /* 进度条: https://github.com/insidegui/GRProgressIndicator.git        */
+/* 提取car文件: https://github.com/yuedong56/Assets.carTool             */
 /************************************************************************/

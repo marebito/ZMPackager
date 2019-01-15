@@ -34,6 +34,7 @@
 		54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */; };
 		54E6647421DF4F7500F1C989 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647321DF4F7500F1C989 /* checkmark.png */; };
 		54E6647621DF502900F1C989 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647521DF502900F1C989 /* document.png */; };
+		54E6F97121EDD0EA00BB22FA /* ZMWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6F97021EDD0EA00BB22FA /* ZMWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,8 @@
 		54E6646F21DF4B7F00F1C989 /* ZMSSLToolsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMSSLToolsViewController.m; sourceTree = "<group>"; };
 		54E6647321DF4F7500F1C989 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		54E6647521DF502900F1C989 /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document.png; sourceTree = "<group>"; };
+		54E6F96F21EDD0EA00BB22FA /* ZMWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMWindow.h; sourceTree = "<group>"; };
+		54E6F97021EDD0EA00BB22FA /* ZMWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +125,8 @@
 		540AA91821D47B0100E01279 /* ZMPackager */ = {
 			isa = PBXGroup;
 			children = (
-				5485511121E7310C00BE05A3 /* Shell */,
-				5485510B21E7302200BE05A3 /* CHCSVParser */,
-				54BCF44B21E35EB30055AA3E /* ZMShellTask */,
-				54BCF43121E301EA0055AA3E /* YYModel */,
-				54BCF42821E2FF500055AA3E /* QuickRSA */,
+				54EE28C021EC2E6A00C1626D /* Vendors */,
+				54EE28BF21EC2E5D00C1626D /* Modules */,
 				54E6647221DF4F5B00F1C989 /* Images */,
 				540AA91921D47B0100E01279 /* AppDelegate.h */,
 				540AA91A21D47B0100E01279 /* AppDelegate.m */,
@@ -134,14 +134,6 @@
 				54E6646C21DF4B5600F1C989 /* ZMBaseViewController.m */,
 				540AA91C21D47B0100E01279 /* ViewController.h */,
 				540AA91D21D47B0100E01279 /* ViewController.m */,
-				5483E34121DF05A200976829 /* ZMCertificateReader.h */,
-				5483E34221DF05A200976829 /* ZMCertificateReader.m */,
-				5483E34421DF05B500976829 /* ZMProvisionReader.h */,
-				5483E34521DF05B500976829 /* ZMProvisionReader.m */,
-				54BCF44221E34F820055AA3E /* ZMCertificateInfo.h */,
-				54BCF44321E34F820055AA3E /* ZMCertificateInfo.m */,
-				5483E34721DF110B00976829 /* ZMProvisionInfo.h */,
-				5483E34821DF110B00976829 /* ZMProvisionInfo.m */,
 				5483E34A21DF337000976829 /* ZMRenewal.h */,
 				5483E34B21DF337000976829 /* ZMRenewal.m */,
 				54E6646A21DF495400F1C989 /* ZMShellCmd.h */,
@@ -156,7 +148,6 @@
 				540AA92521D47B0200E01279 /* main.m */,
 				540AA92721D47B0200E01279 /* ZMPackager.entitlements */,
 				5483E34D21DF36F100976829 /* README.md */,
-				54BCF44C21E368900055AA3E /* list_xcode_provisioning_profiles.sh */,
 			);
 			path = ZMPackager;
 			sourceTree = "<group>";
@@ -173,6 +164,7 @@
 		5485511121E7310C00BE05A3 /* Shell */ = {
 			isa = PBXGroup;
 			children = (
+				54BCF44C21E368900055AA3E /* list_xcode_provisioning_profiles.sh */,
 			);
 			path = Shell;
 			sourceTree = "<group>";
@@ -239,6 +231,75 @@
 				54E6647321DF4F7500F1C989 /* checkmark.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		54EE28BB21EC2DEA00C1626D /* CertificateAndProfile */ = {
+			isa = PBXGroup;
+			children = (
+				54EE28BE21EC2E1B00C1626D /* Controller */,
+				54EE28BD21EC2E1400C1626D /* View */,
+				54EE28BC21EC2E0900C1626D /* Model */,
+			);
+			path = CertificateAndProfile;
+			sourceTree = "<group>";
+		};
+		54EE28BC21EC2E0900C1626D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5483E34121DF05A200976829 /* ZMCertificateReader.h */,
+				5483E34221DF05A200976829 /* ZMCertificateReader.m */,
+				5483E34421DF05B500976829 /* ZMProvisionReader.h */,
+				5483E34521DF05B500976829 /* ZMProvisionReader.m */,
+				54BCF44221E34F820055AA3E /* ZMCertificateInfo.h */,
+				54BCF44321E34F820055AA3E /* ZMCertificateInfo.m */,
+				5483E34721DF110B00976829 /* ZMProvisionInfo.h */,
+				5483E34821DF110B00976829 /* ZMProvisionInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54EE28BD21EC2E1400C1626D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54EE28BE21EC2E1B00C1626D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54EE28BF21EC2E5D00C1626D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				54EE28C121EC402100C1626D /* CustomUI */,
+				54EE28BB21EC2DEA00C1626D /* CertificateAndProfile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		54EE28C021EC2E6A00C1626D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				5485511121E7310C00BE05A3 /* Shell */,
+				5485510B21E7302200BE05A3 /* CHCSVParser */,
+				54BCF44B21E35EB30055AA3E /* ZMShellTask */,
+				54BCF43121E301EA0055AA3E /* YYModel */,
+				54BCF42821E2FF500055AA3E /* QuickRSA */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		54EE28C121EC402100C1626D /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				54E6F96F21EDD0EA00BB22FA /* ZMWindow.h */,
+				54E6F97021EDD0EA00BB22FA /* ZMWindow.m */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +391,7 @@
 				54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */,
 				540AA91E21D47B0100E01279 /* ViewController.m in Sources */,
 				540AA92621D47B0200E01279 /* main.m in Sources */,
+				54E6F97121EDD0EA00BB22FA /* ZMWindow.m in Sources */,
 				54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */,
 				54BCF44A21E35DF90055AA3E /* ZMTaskManager.m in Sources */,
 				5483E34621DF05B500976829 /* ZMProvisionReader.m in Sources */,
@@ -481,7 +543,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ZMPackager/QuickRSA",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/QuickRSA",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,7 +564,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ZMPackager/QuickRSA",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/QuickRSA",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
