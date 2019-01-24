@@ -25,6 +25,11 @@
 		5492907421F98662003D433F /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492907321F98662003D433F /* XMLDictionary.m */; };
 		5492907821F988EC003D433F /* NSObject+ObjectMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492907621F988EB003D433F /* NSObject+ObjectMap.m */; };
 		5492907E21F98B72003D433F /* SwiftCSVExportOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */; };
+		5492908521F990F8003D433F /* NSDate+Relative.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908121F990F8003D433F /* NSDate+Relative.m */; };
+		5492908621F990F8003D433F /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908321F990F8003D433F /* DirectoryWatcher.m */; };
+		5492908E21F99114003D433F /* XcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908821F99114003D433F /* XcodeArchive.m */; };
+		5492908F21F99114003D433F /* ZMProvisioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908A21F99114003D433F /* ZMProvisioning.m */; };
+		5492909021F99114003D433F /* ZMSigningIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908B21F99114003D433F /* ZMSigningIdentity.m */; };
 		54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCF42921E2FF790055AA3E /* libQuickRSA.a */; };
 		54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */; };
 		54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43521E301EA0055AA3E /* YYClassInfo.m */; };
@@ -75,6 +80,17 @@
 		5492907621F988EB003D433F /* NSObject+ObjectMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMap.m"; sourceTree = "<group>"; };
 		5492907721F988EB003D433F /* NSObject+ObjectMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMap.h"; sourceTree = "<group>"; };
 		5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftCSVExportOSX.framework; sourceTree = "<group>"; };
+		5492908121F990F8003D433F /* NSDate+Relative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Relative.m"; sourceTree = "<group>"; };
+		5492908221F990F8003D433F /* DirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcher.h; sourceTree = "<group>"; };
+		5492908321F990F8003D433F /* DirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcher.m; sourceTree = "<group>"; };
+		5492908421F990F8003D433F /* NSDate+Relative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Relative.h"; sourceTree = "<group>"; };
+		5492908821F99114003D433F /* XcodeArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeArchive.m; sourceTree = "<group>"; };
+		5492908921F99114003D433F /* ZMProvisioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMProvisioning.h; sourceTree = "<group>"; };
+		5492908A21F99114003D433F /* ZMProvisioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMProvisioning.m; sourceTree = "<group>"; };
+		5492908B21F99114003D433F /* ZMSigningIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSigningIdentity.m; sourceTree = "<group>"; };
+		5492908C21F99114003D433F /* XcodeArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeArchive.h; sourceTree = "<group>"; };
+		5492908D21F99114003D433F /* ZMSigningIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSigningIdentity.h; sourceTree = "<group>"; };
+		5492909221F99820003D433F /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		54BCF42921E2FF790055AA3E /* libQuickRSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickRSA.a; sourceTree = "<group>"; };
 		54BCF42C21E2FF790055AA3E /* QRFormatConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRFormatConvert.h; sourceTree = "<group>"; };
 		54BCF42D21E2FF790055AA3E /* QRSecCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRSecCrypto.h; sourceTree = "<group>"; };
@@ -142,6 +158,7 @@
 		540AA91821D47B0100E01279 /* ZMPackager */ = {
 			isa = PBXGroup;
 			children = (
+				5492909121F99814003D433F /* Common */,
 				54EE28C021EC2E6A00C1626D /* Vendors */,
 				54EE28BF21EC2E5D00C1626D /* Modules */,
 				54E6647221DF4F5B00F1C989 /* Images */,
@@ -253,6 +270,47 @@
 				5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */,
 			);
 			path = CSV;
+			sourceTree = "<group>";
+		};
+		5492907F21F990D5003D433F /* IPA */ = {
+			isa = PBXGroup;
+			children = (
+				5492908721F990FE003D433F /* Model */,
+				5492908021F990ED003D433F /* Public */,
+			);
+			path = IPA;
+			sourceTree = "<group>";
+		};
+		5492908021F990ED003D433F /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				5492908221F990F8003D433F /* DirectoryWatcher.h */,
+				5492908321F990F8003D433F /* DirectoryWatcher.m */,
+				5492908421F990F8003D433F /* NSDate+Relative.h */,
+				5492908121F990F8003D433F /* NSDate+Relative.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		5492908721F990FE003D433F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5492908921F99114003D433F /* ZMProvisioning.h */,
+				5492908A21F99114003D433F /* ZMProvisioning.m */,
+				5492908D21F99114003D433F /* ZMSigningIdentity.h */,
+				5492908B21F99114003D433F /* ZMSigningIdentity.m */,
+				5492908C21F99114003D433F /* XcodeArchive.h */,
+				5492908821F99114003D433F /* XcodeArchive.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5492909121F99814003D433F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5492909221F99820003D433F /* Public.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		54BCF42821E2FF500055AA3E /* QuickRSA */ = {
@@ -370,6 +428,7 @@
 		54EE28C021EC2E6A00C1626D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				5492907F21F990D5003D433F /* IPA */,
 				5492907C21F98B60003D433F /* CSV */,
 				5492907521F988EB003D433F /* NSObject-ObjectMap */,
 				5492907021F98645003D433F /* XML */,
@@ -472,12 +531,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5492908F21F99114003D433F /* ZMProvisioning.m in Sources */,
 				5483E34921DF110B00976829 /* ZMProvisionInfo.m in Sources */,
 				54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */,
 				54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */,
 				54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */,
 				5485511021E7302300BE05A3 /* CHCSVParser.m in Sources */,
 				5492907421F98662003D433F /* XMLDictionary.m in Sources */,
+				5492908621F990F8003D433F /* DirectoryWatcher.m in Sources */,
 				5483E34321DF05A200976829 /* ZMCertificateReader.m in Sources */,
 				54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */,
 				5492907821F988EC003D433F /* NSObject+ObjectMap.m in Sources */,
@@ -485,9 +546,12 @@
 				540AA92621D47B0200E01279 /* main.m in Sources */,
 				54E6F97121EDD0EA00BB22FA /* ZMWindow.m in Sources */,
 				54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */,
+				5492909021F99114003D433F /* ZMSigningIdentity.m in Sources */,
+				5492908E21F99114003D433F /* XcodeArchive.m in Sources */,
 				54BCF44A21E35DF90055AA3E /* ZMTaskManager.m in Sources */,
 				5483E34621DF05B500976829 /* ZMProvisionReader.m in Sources */,
 				54BCF44721E35DE80055AA3E /* ZMOperation.m in Sources */,
+				5492908521F990F8003D433F /* NSDate+Relative.m in Sources */,
 				54BCF43E21E318C80055AA3E /* ZMObject.m in Sources */,
 				5483E34C21DF337000976829 /* ZMRenewal.m in Sources */,
 				540AA91B21D47B0100E01279 /* AppDelegate.m in Sources */,
