@@ -1,0 +1,11 @@
+framework module SwiftCSVExportOSX {
+  umbrella header "SwiftCSVExportOSX.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftCSVExportOSX.Swift {
+    header "SwiftCSVExportOSX-Swift.h"
+    requires objc
+}

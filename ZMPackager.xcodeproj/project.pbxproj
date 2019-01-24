@@ -20,6 +20,11 @@
 		5485511021E7302300BE05A3 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5485510E21E7302200BE05A3 /* CHCSVParser.m */; };
 		5485511921E73D8300BE05A3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5485511821E73D8300BE05A3 /* icon.png */; };
 		5485511B21E7436500BE05A3 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5485511A21E7436500BE05A3 /* default.png */; };
+		5492904E21F983DF003D433F /* libDHxlsReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5492904D21F983DF003D433F /* libDHxlsReader.a */; };
+		5492906F21F985FD003D433F /* xlsxwriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5492906E21F985FD003D433F /* xlsxwriter.framework */; };
+		5492907421F98662003D433F /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492907321F98662003D433F /* XMLDictionary.m */; };
+		5492907821F988EC003D433F /* NSObject+ObjectMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492907621F988EB003D433F /* NSObject+ObjectMap.m */; };
+		5492907E21F98B72003D433F /* SwiftCSVExportOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */; };
 		54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCF42921E2FF790055AA3E /* libQuickRSA.a */; };
 		54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */; };
 		54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43521E301EA0055AA3E /* YYClassInfo.m */; };
@@ -61,6 +66,15 @@
 		5485510E21E7302200BE05A3 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		5485511821E73D8300BE05A3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		5485511A21E7436500BE05A3 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		5492904B21F983DF003D433F /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
+		5492904C21F983DF003D433F /* DHxlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReader.h; sourceTree = "<group>"; };
+		5492904D21F983DF003D433F /* libDHxlsReader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHxlsReader.a; sourceTree = "<group>"; };
+		5492906E21F985FD003D433F /* xlsxwriter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xlsxwriter.framework; sourceTree = "<group>"; };
+		5492907221F98662003D433F /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		5492907321F98662003D433F /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		5492907621F988EB003D433F /* NSObject+ObjectMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMap.m"; sourceTree = "<group>"; };
+		5492907721F988EB003D433F /* NSObject+ObjectMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMap.h"; sourceTree = "<group>"; };
+		5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftCSVExportOSX.framework; sourceTree = "<group>"; };
 		54BCF42921E2FF790055AA3E /* libQuickRSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickRSA.a; sourceTree = "<group>"; };
 		54BCF42C21E2FF790055AA3E /* QRFormatConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRFormatConvert.h; sourceTree = "<group>"; };
 		54BCF42D21E2FF790055AA3E /* QRSecCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRSecCrypto.h; sourceTree = "<group>"; };
@@ -99,7 +113,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5492907E21F98B72003D433F /* SwiftCSVExportOSX.framework in Frameworks */,
+				5492904E21F983DF003D433F /* libDHxlsReader.a in Frameworks */,
 				54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */,
+				5492906F21F985FD003D433F /* xlsxwriter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +184,75 @@
 				54BCF44C21E368900055AA3E /* list_xcode_provisioning_profiles.sh */,
 			);
 			path = Shell;
+			sourceTree = "<group>";
+		};
+		5492904721F9832A003D433F /* Excel */ = {
+			isa = PBXGroup;
+			children = (
+				5492906D21F985F4003D433F /* xlsxwriter */,
+				5492904F21F983E6003D433F /* DHxlsReader */,
+			);
+			path = Excel;
+			sourceTree = "<group>";
+		};
+		5492904F21F983E6003D433F /* DHxlsReader */ = {
+			isa = PBXGroup;
+			children = (
+				5492905021F983F1003D433F /* include */,
+				5492904D21F983DF003D433F /* libDHxlsReader.a */,
+			);
+			path = DHxlsReader;
+			sourceTree = "<group>";
+		};
+		5492905021F983F1003D433F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5492904B21F983DF003D433F /* DHcell.h */,
+				5492904C21F983DF003D433F /* DHxlsReader.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5492906D21F985F4003D433F /* xlsxwriter */ = {
+			isa = PBXGroup;
+			children = (
+				5492906E21F985FD003D433F /* xlsxwriter.framework */,
+			);
+			path = xlsxwriter;
+			sourceTree = "<group>";
+		};
+		5492907021F98645003D433F /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				5492907121F98662003D433F /* XMLDictionary */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		5492907121F98662003D433F /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5492907221F98662003D433F /* XMLDictionary.h */,
+				5492907321F98662003D433F /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		5492907521F988EB003D433F /* NSObject-ObjectMap */ = {
+			isa = PBXGroup;
+			children = (
+				5492907621F988EB003D433F /* NSObject+ObjectMap.m */,
+				5492907721F988EB003D433F /* NSObject+ObjectMap.h */,
+			);
+			path = "NSObject-ObjectMap";
+			sourceTree = "<group>";
+		};
+		5492907C21F98B60003D433F /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */,
+			);
+			path = CSV;
 			sourceTree = "<group>";
 		};
 		54BCF42821E2FF500055AA3E /* QuickRSA */ = {
@@ -284,6 +370,10 @@
 		54EE28C021EC2E6A00C1626D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				5492907C21F98B60003D433F /* CSV */,
+				5492907521F988EB003D433F /* NSObject-ObjectMap */,
+				5492907021F98645003D433F /* XML */,
+				5492904721F9832A003D433F /* Excel */,
 				5485511121E7310C00BE05A3 /* Shell */,
 				5485510B21E7302200BE05A3 /* CHCSVParser */,
 				54BCF44B21E35EB30055AA3E /* ZMShellTask */,
@@ -387,8 +477,10 @@
 				54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */,
 				54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */,
 				5485511021E7302300BE05A3 /* CHCSVParser.m in Sources */,
+				5492907421F98662003D433F /* XMLDictionary.m in Sources */,
 				5483E34321DF05A200976829 /* ZMCertificateReader.m in Sources */,
 				54E6646D21DF4B5600F1C989 /* ZMBaseViewController.m in Sources */,
+				5492907821F988EC003D433F /* NSObject+ObjectMap.m in Sources */,
 				540AA91E21D47B0100E01279 /* ViewController.m in Sources */,
 				540AA92621D47B0200E01279 /* main.m in Sources */,
 				54E6F97121EDD0EA00BB22FA /* ZMWindow.m in Sources */,
@@ -536,6 +628,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LQW337MH2W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/Excel/xlsxwriter",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/CSV",
+				);
 				INFOPLIST_FILE = ZMPackager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -543,10 +640,11 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ZMPackager/Vendors/QuickRSA",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/**",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ZMPackager/Vendors/CSV/SwiftCSVExportOSX.framework/Headers";
 			};
 			name = Debug;
 		};
@@ -557,6 +655,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LQW337MH2W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/Excel/xlsxwriter",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/CSV",
+				);
 				INFOPLIST_FILE = ZMPackager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -564,10 +667,11 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ZMPackager/Vendors/QuickRSA",
+					"$(PROJECT_DIR)/ZMPackager/Vendors/**",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMPackager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/ZMPackager/Vendors/CSV/SwiftCSVExportOSX.framework/Headers";
 			};
 			name = Release;
 		};
