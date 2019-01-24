@@ -30,6 +30,7 @@
 		5492908E21F99114003D433F /* ZMXcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908821F99114003D433F /* ZMXcodeArchive.m */; };
 		5492908F21F99114003D433F /* ZMProvisioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908A21F99114003D433F /* ZMProvisioning.m */; };
 		5492909021F99114003D433F /* ZMSigningIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908B21F99114003D433F /* ZMSigningIdentity.m */; };
+		5492909A21F9BBF5003D433F /* NSScrollView+MultiLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492909921F9BBF5003D433F /* NSScrollView+MultiLine.m */; };
 		54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCF42921E2FF790055AA3E /* libQuickRSA.a */; };
 		54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43421E301EA0055AA3E /* NSObject+YYModel.m */; };
 		54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCF43521E301EA0055AA3E /* YYClassInfo.m */; };
@@ -91,6 +92,8 @@
 		5492908C21F99114003D433F /* ZMXcodeArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMXcodeArchive.h; sourceTree = "<group>"; };
 		5492908D21F99114003D433F /* ZMSigningIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSigningIdentity.h; sourceTree = "<group>"; };
 		5492909221F99820003D433F /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		5492909821F9BBF5003D433F /* NSScrollView+MultiLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScrollView+MultiLine.h"; sourceTree = "<group>"; };
+		5492909921F9BBF5003D433F /* NSScrollView+MultiLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScrollView+MultiLine.m"; sourceTree = "<group>"; };
 		54BCF42921E2FF790055AA3E /* libQuickRSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickRSA.a; sourceTree = "<group>"; };
 		54BCF42C21E2FF790055AA3E /* QRFormatConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRFormatConvert.h; sourceTree = "<group>"; };
 		54BCF42D21E2FF790055AA3E /* QRSecCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRSecCrypto.h; sourceTree = "<group>"; };
@@ -308,9 +311,19 @@
 		5492909121F99814003D433F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5492909721F9BBEE003D433F /* CustomUI */,
 				5492909221F99820003D433F /* Public.h */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		5492909721F9BBEE003D433F /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				5492909821F9BBF5003D433F /* NSScrollView+MultiLine.h */,
+				5492909921F9BBF5003D433F /* NSScrollView+MultiLine.m */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 		54BCF42821E2FF500055AA3E /* QuickRSA */ = {
@@ -536,6 +549,7 @@
 				54BCF43821E301EA0055AA3E /* YYClassInfo.m in Sources */,
 				54BCF43721E301EA0055AA3E /* NSObject+YYModel.m in Sources */,
 				54BCF44421E34F820055AA3E /* ZMCertificateInfo.m in Sources */,
+				5492909A21F9BBF5003D433F /* NSScrollView+MultiLine.m in Sources */,
 				5485511021E7302300BE05A3 /* CHCSVParser.m in Sources */,
 				5492907421F98662003D433F /* XMLDictionary.m in Sources */,
 				5492908621F990F8003D433F /* DirectoryWatcher.m in Sources */,
