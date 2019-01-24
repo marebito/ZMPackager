@@ -27,7 +27,7 @@
 		5492907E21F98B72003D433F /* SwiftCSVExportOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5492907D21F98B72003D433F /* SwiftCSVExportOSX.framework */; };
 		5492908521F990F8003D433F /* NSDate+Relative.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908121F990F8003D433F /* NSDate+Relative.m */; };
 		5492908621F990F8003D433F /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908321F990F8003D433F /* DirectoryWatcher.m */; };
-		5492908E21F99114003D433F /* XcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908821F99114003D433F /* XcodeArchive.m */; };
+		5492908E21F99114003D433F /* ZMXcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908821F99114003D433F /* ZMXcodeArchive.m */; };
 		5492908F21F99114003D433F /* ZMProvisioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908A21F99114003D433F /* ZMProvisioning.m */; };
 		5492909021F99114003D433F /* ZMSigningIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492908B21F99114003D433F /* ZMSigningIdentity.m */; };
 		54BCF43021E2FF790055AA3E /* libQuickRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCF42921E2FF790055AA3E /* libQuickRSA.a */; };
@@ -84,11 +84,11 @@
 		5492908221F990F8003D433F /* DirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcher.h; sourceTree = "<group>"; };
 		5492908321F990F8003D433F /* DirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcher.m; sourceTree = "<group>"; };
 		5492908421F990F8003D433F /* NSDate+Relative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Relative.h"; sourceTree = "<group>"; };
-		5492908821F99114003D433F /* XcodeArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeArchive.m; sourceTree = "<group>"; };
+		5492908821F99114003D433F /* ZMXcodeArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMXcodeArchive.m; sourceTree = "<group>"; };
 		5492908921F99114003D433F /* ZMProvisioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMProvisioning.h; sourceTree = "<group>"; };
 		5492908A21F99114003D433F /* ZMProvisioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMProvisioning.m; sourceTree = "<group>"; };
 		5492908B21F99114003D433F /* ZMSigningIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSigningIdentity.m; sourceTree = "<group>"; };
-		5492908C21F99114003D433F /* XcodeArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeArchive.h; sourceTree = "<group>"; };
+		5492908C21F99114003D433F /* ZMXcodeArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMXcodeArchive.h; sourceTree = "<group>"; };
 		5492908D21F99114003D433F /* ZMSigningIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSigningIdentity.h; sourceTree = "<group>"; };
 		5492909221F99820003D433F /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		54BCF42921E2FF790055AA3E /* libQuickRSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickRSA.a; sourceTree = "<group>"; };
@@ -299,8 +299,8 @@
 				5492908A21F99114003D433F /* ZMProvisioning.m */,
 				5492908D21F99114003D433F /* ZMSigningIdentity.h */,
 				5492908B21F99114003D433F /* ZMSigningIdentity.m */,
-				5492908C21F99114003D433F /* XcodeArchive.h */,
-				5492908821F99114003D433F /* XcodeArchive.m */,
+				5492908C21F99114003D433F /* ZMXcodeArchive.h */,
+				5492908821F99114003D433F /* ZMXcodeArchive.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -547,7 +547,7 @@
 				54E6F97121EDD0EA00BB22FA /* ZMWindow.m in Sources */,
 				54E6647021DF4B7F00F1C989 /* ZMSSLToolsViewController.m in Sources */,
 				5492909021F99114003D433F /* ZMSigningIdentity.m in Sources */,
-				5492908E21F99114003D433F /* XcodeArchive.m in Sources */,
+				5492908E21F99114003D433F /* ZMXcodeArchive.m in Sources */,
 				54BCF44A21E35DF90055AA3E /* ZMTaskManager.m in Sources */,
 				5483E34621DF05B500976829 /* ZMProvisionReader.m in Sources */,
 				54BCF44721E35DE80055AA3E /* ZMOperation.m in Sources */,
